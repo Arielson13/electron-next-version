@@ -1,22 +1,69 @@
-* {
+body {
+  background-image: url(assets/images/52a8dd48ab431d89079900b12357c176.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-#container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
   height: 100dvh;
-  background-color: aqua;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#container .design {
-  background-color: #5bd9b5;
+/* Contêiner do formulário */
+.login-container {
+  padding: 20px;
 }
 
-/* #container .design .logo {
-  width: 300px;
-  height: 300px;
-} */
+.form-box {
+  text-align: center;
+}
+
+/* Estilização dos inputs */
+.input-group {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: rgb(184, 134, 11);
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.466);
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+  outline: none;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Botão de login com efeito luminoso */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: linear-gradient(90deg, #ff7eb3, #ff758c);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(255, 117, 140, 0.5),
+    0 0 25px rgba(255, 117, 140, 0.3);
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  box-shadow: 0 0 25px rgba(255, 117, 140, 0.8),
+    0 0 35px rgba(255, 117, 140, 0.6);
+  transform: scale(1.05);
+}
