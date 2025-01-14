@@ -1,21 +1,22 @@
-body {
-    transition: background-color 0.3s, color 0.3s;
-    font-family: Arial, sans-serif;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body.light {
-    background-color: #ffffff;
-    color: #333;
-  }
+#container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100dvh;
+  background-color: aqua;
+}
 
-  body.dark {
-    background-color: #333;
-    color: #ffffff;
-  }
+#container .design {
+  background-color: #5bd9b5;
+}
 
-  button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
+/* #container .design .logo {
+  width: 300px;
+  height: 300px;
+} */
